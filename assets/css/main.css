@@ -1439,6 +1439,33 @@
 				background-color: #1f232b;
 			}
 
+
+			input[type="button"].buystyle,
+			input[type="submit"].buystyle,
+			input[type="reset"].buystyle,
+			button.buystyle,
+			.button.buystyle {
+				background: #ff1003 url("images/overlay.png");
+				color: #fff;
+			}
+	
+				input[type="button"].buystyle:hover,
+				input[type="submit"].buystyle:hover,
+				input[type="reset"].buystyle:hover,
+				button.buystyle:hover,
+				.button.buystyle:hover {
+					background-color: #f87a73;
+				}
+	
+				input[type="button"].buystyle:active,
+				input[type="submit"].buystyle:active,
+				input[type="reset"].buystyle:active,
+				button.buystyle:active,
+				.button.buystyle:active {
+					background-color: #f8736c;
+				}
+	
+
 /* List */
 
 	ul.default {
